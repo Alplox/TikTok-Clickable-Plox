@@ -2,11 +2,15 @@
 // @name         TikTok Clickable Plox
 // @namespace    tiktok-clickable-plox
 // @description  Hace clicables con rueda del raton videos relacionados (miniatura y título) en TikTok Desktop y añade toggle para abrir en nueva pestaña al darles click normal.
-// @version      0.0.1
+// @version      0.0.2
 // @author       Alplox
 // @match        https://www.tiktok.com/*
-// @icon         https://raw.githubusercontent.com/Alplox/StartpagePlox/refs/heads/main/assets/favicon/favicon.ico
+// @icon         https://www.tiktok.com/favicon.ico
 // @grant        GM_addStyle
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_registerMenuCommand
+// @grant        GM_unregisterMenuCommand
 // @run-at       document-end
 // @license      MIT
 // @homepageURL  https://github.com/Alplox/TikTok-Clickable-Plox
